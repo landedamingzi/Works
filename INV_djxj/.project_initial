@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>FlashingLeds-F28069</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.genmakebuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+		<nature>org.eclipse.cdt.core.ccnature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
+		<nature>com.ti.ccstudio.managedbuild.core.ccsNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>SciCommsGui.c</name>
+			<type>1</type>
+			<locationURI>CONTROLSUITE_ROOT/development_kits/~SupportFiles/source/SciCommsGui.c</locationURI>
+		</link>
+		<link>
+			<name>F2806x_GlobalVariableDefs.c</name>
+			<type>1</type>
+			<locationURI>F2806x_DEVICE_SUPPORT_ROOT/F2806x_headers/source/F2806x_GlobalVariableDefs.c</locationURI>
+		</link>
+		<link>
+			<name>F2806x_CodeStartBranch.asm</name>
+			<type>1</type>
+			<locationURI>F2806x_DEVICE_SUPPORT_ROOT/F2806x_common/source/F2806x_CodeStartBranch.asm</locationURI>
+		</link>
+		<link>
+			<name>F2806x_Headers_nonBIOS.cmd</name>
+			<type>1</type>
+			<locationURI>F2806x_DEVICE_SUPPORT_ROOT/F2806x_headers/cmd/F2806x_Headers_nonBIOS.cmd</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>
